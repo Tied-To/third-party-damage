@@ -1,0 +1,30 @@
+{
+  "name": "third-party-damage",
+  "version": "1.0.0",
+  "description": "A digital form to track pipeline damage information",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "nodemon src/server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tied-To/third-party-damage.git"
+  },
+  "author": "Andrew Moon, Rodolfo Portillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tied-To/third-party-damage/issues"
+  },
+  "homepage": "https://github.com/Tied-To/third-party-damage#readme",
+  "dependencies": {
+    "babelify": "^7.2.0",
+    "body-parser": "^1.15.0",
+    "browserify-middleware": "^7.0.0",
+    "express": "^4.13.4",
+    "node": "0.0.0",
+    "path": "^0.12.7"
+  }
+}
